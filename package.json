@@ -1,0 +1,20 @@
+{
+  "name": "9201-bus-tracker",
+  "version": "1.0.0",
+  "description": "9201 bus tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "axios-mock-adapter": "^1.21.5"
+  }
+}
